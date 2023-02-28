@@ -11,9 +11,9 @@ main.tf contains the vpc, asg and elb configuration
 located in the ./modules path
 
 ## Useful commands
-- `"sudo make install"` shows the expected output of 18 resources
-- `"sudo make install-approve"` 
-- `"sudo make destroy"`
+- `sudo make install` shows the expected output of 18 resources
+- `sudo make install-approve` 
+- `sudo make destroy`
 
 ## expected results
 - private EC2 instance available hosting on port 80 for "hello world 1"
