@@ -16,5 +16,5 @@ located in the ./modules path
 - `"sudo make destroy"`
 
 ## expected results
-private EC2 instance available hosting on port 80 for "hello world 1"
-Can SSH with named sshkey to private instance through the elb dns
+- private EC2 instance available hosting on port 80 for "hello world 1"
+- Can SSH with named sshkey to private instance through the elb dns
